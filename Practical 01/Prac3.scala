@@ -1,6 +1,6 @@
 object SphereVolumeCalculator {
   def volumeOfSphere(radius: Double): Double = {
-    (4.0 / 3.0) * Math.PI * Math.pow(radius, 3)
+    (4.0 / 3.0) * 3.14 * radius * radius * radius
   }
 
   def main(args: Array[String]): Unit = {
