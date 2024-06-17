@@ -1,6 +1,6 @@
 object DiskAreaCalculator {
   def areaOfDisk(radius: Double): Double = {
-    Math.PI * radius * radius
+    3.14 * radius * radius
   }
 
   def main(args: Array[String]): Unit = {
