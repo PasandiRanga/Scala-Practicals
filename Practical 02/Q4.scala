@@ -42,7 +42,7 @@ object MovieTheaterProfitCalculator extends App {
     (bestPrice, maxProfit)
   }
 
-  val (bestPrice, maxProfit) = findBestTicketPrice(5.0, 50.0, 0.5)
+  val (bestPrice, maxProfit) = findBestTicketPrice(5.0, 50.0, 5.0)
   println(f"Best ticket price: Rs. $bestPrice%.2f")
   println(f"Maximum profit: Rs. $maxProfit%.2f")
 }
