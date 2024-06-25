@@ -1,5 +1,5 @@
 object MovieTheaterProfitCalculator extends App {
-  // Constants
+
   val basePrice: Double = 15.0
   val baseAttendance: Int = 120
   val priceChange: Double = 5.0
